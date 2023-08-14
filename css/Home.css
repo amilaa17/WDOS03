@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nanum+Myeongjo:wght@400;800&family=Playfair:wght@300&family=Poltawski+Nowy:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&family=Pontano+Sans:wght@700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+/*main image*/
+
+
+}
+.banner{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/p1.jpg) ;
+    background-size: cover;
+    background-position: center;
+  
+  /*navbar*/   
+}
+.button-watch{
+    display:flex;
+    justify-content: center; 
+   
+  
+/*navbar*/
+}
+.navbar{
+    width: 85%;
+    margin: -3.5rem 14rem;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    
+/*logo*/
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+ }
+ .ul li ul.dropdown li{
+    display: inline-flex
+  /*dropdown*/
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display:none;
+    background: black;
+    padding: 10px;
+    background-color: grey;  
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+/*headtopic*/
+
+
+ }
+ .headtopic{
+   width:90%;
+   color: #fff;
+   position:absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+
+ }
+ .headtopic h1{
+    font-size: 62px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+ }
+   
+/*main topic intro*/
+ 
+.headtopic p{
+    margin: 10px 0 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:#fff
+
+/*button*/
+
+}
+.first-btn{
+    display:inline block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px ;
+    position: relative;
+    cursor: pointer;
+}
+.first-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 3s;
+ /*Sri Lankan turtle population*/
+}
+.slpopulation p{
+    color: rgb(0, 0, 0);
+    padding: 1% 6% 1%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-end;
+   
+}  
+
+.slpopulation h1{
+    font-size:70px;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+}
+/*Sri Lankan Turtle Hatcheries*/
+ 
+
+.slhatcheriesintro h2{
+    font-size:70px;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+
+}
+.slhatcheriesintro p{
+    color: rgb(0, 0, 0);
+    padding: 1% 6% 1%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-end;
+    
+}
+.slhatcheriesintro h3{
+  
+    font-size: 22px;
+    margin: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.slhatcheriesintro li{
+    
+  margin-left: 10%; 
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+ }.intro-p{
+    display: flex;
+    justify-content: center;
+    padding: 4% 40% 4%;
+    gap: 20px;
+    width:400px;
+    height:300px;
+ 
+
+ }
+.photos{
+    display: flex;
+    justify-content: center;
+    padding: 4% 40% 4%;
+    gap: 20px;
+    width:400px;
+    height:300px;
+}
+/*Turtle Hatcheries in Sri Lanka*/
+.main h2{
+    font-size:50px;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    padding:5% 5% 5%;
+    padding-left: 175px;
+    font-family: 'Poppins', sans-serif;
+   
+}  
+ 
+.main ol li{
+    margin-left: 5%; 
+    padding-right: 7%;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+/*footer*/
+}
+.foot{
+    background-color: #d6d4d4;
+     background-repeat:no-repeat;
+     background-size:cover;
+     color:rgb(0, 0, 0);
+     text-align: center;  
+     width: 100%;
+}
+ .reference{
+     display: grid;
+     padding: 10px;
+ }
+body{
+    overflow-x: hidden;
+}
+/*responsive*/
+ /* @media only screen and (max-width: 767px) {
+
+ 
+  .headtopic h1{
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .intro-p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 4% 10%;
+    flex-wrap: wrap;
+  }
+
+  .intro-p img{
+    width: 22rem;
+   height: 16rem;
+  }
+
+  .main h2 {
+    padding-left: 20px;
+  }
+  .photos{
+    display: flex;
+    justify-content: center;
+   padding: 4% 10%;
+   
+    gap: 10px;
+   
+    flex-wrap: wrap;
+}
+.photos img{
+     width: 22rem;
+   height: 16rem;   
+}
+
+.slhatcheriesintro{
+    margin-top: 90%;
+}
+.main{
+    margin-top: 80%;
+}
+.foot{
+    margin-top: 70%;
+}
+.navbar{
+    width: 85%;
+    margin: 7.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}*/
+@media only screen and (max-width: 700px) {
+  .headtopic h1 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .intro-p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 4% 10%;
+    flex-wrap: wrap;
+  }
+
+  .intro-p img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main h2 {
+    padding-left: 20px;
+  }
+
+  .photos {
+    display: flex;
+    justify-content: center;
+    padding: 4% 10%;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .photos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slhatcheriesintro {
+    margin-top: 90%;
+  }
+
+  .main {
+    margin-top: 80%;
+  }
+
+  .foot {
+    margin-top: 76%;
+  }
+
+  .navbar {
+    margin: -5.5rem 5rem;
+  }
+}
+
+
+  
+
+
+
+

@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow:-y hidden;
+}
+
+h1 {
+   
+  background-color: #004d20;
+    line-height: 0.9em;
+    padding-bottom: 30px;
+    
+}
+   
+ h1 a{
+    
+    
+    color: rgb(0, 0, 0);
+    font-size:large;
+    text-decoration: none;
+    background-color: #004d20;
+
+}
+.topnav{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #000000;
+
+
+}
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #070707;
+
+
+
+}
+body {
+   
+  font-family: Arial, sans-serif;
+
+
+    
+  }
+  
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/Dratails2.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.tik {
+  font-family: Arial, sans-serif;
+ 
+ 
+  margin: 1% 11% 10%;
+  float: left;
+}
+.wrapper {
+  
+  width: 100%;
+  max-width: 400px;
+  background-color: #004d20;
+}
+
+.calender {
+  
+  border-radius: 10px;
+  background-color: #ffffff;
+
+
+}
+
+header {
+  background-color: #004d20;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+
+.weeks {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+ 
+  font-weight: bold;
+}
+
+
+.days {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.days li {
+
+  height: 20px;
+ 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.days li:hover {
+  background-color: #004d20;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+
+.booking-form {
+ 
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.guest-select,
+.dur {
+  margin-bottom: 15px;
+  padding: 7px;
+}
+
+.select-time {
+  width: 85%;
+  padding: 8px;
+  margin-top: 5%;
+  background-color: #fff;
+}
+
+.summary-table {
+  float: right;
+  width: 100%;
+  padding: 25%;
+  margin-top: -100px;
+ 
+}
+.summary-table h1{
+ 
+  padding:4% ;
+}
+  
+.summary-table tr{
+  background-color: #ffffff;;
+  padding: 7px;
+  font-weight: bold;
+ 
+}.summary-table td{
+  padding: 14px;
+
+}
+/*.submit-btn {
+  background-color:#004d20;
+  color: #fff;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+ 
+
+}
+
+.submit-btn:hover {
+  background-color: #004d20;
+  border-radius:10px;
+ 
+}*/
+
+.submit-btn {
+  background-color: #083912;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 2rem ;
+  margin-left: 10rem;
+
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  border-radius:10px;
+ 
+}
+.pricing-table {
+  width: 26vw;
+  color: #000000;
+  font-size: 15px;
+  background-color: #ffffff;
+  font-weight: bold;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="css/Payment.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/css/intlTelInput.css"/>
+<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+</head>
+<body>
+
+    <h1><a href="" >< Home </a><center>Buy Tickets</center></h1>
+
+
+
+    
+        <ul class="topnav">
+          <li><a href="./Ticket.html"> Ticket </a></li>
+          <
+        
+          <li><a href="./Details.html">  Details</a></li>
+          <
+          <li><a href="./Payment.html"> Payment</a></li>
+           <
+          <li><a href="./Confirmation.html"> Confirmation </a></li>
+          
+        </ul>
+    
+      
+
+<section class="banner">
+    <div class="booking">
+
+
+    
+  
+        <h2>Payment details</h2>
+        <br>
+        <br>
+     
+      
+   
+        <form id="paymentForm" action="action">
+
+            <label for="cardnum">Card Number</label><br>
+            <input class="box1" type="text" name="number" id="number" placeholder="320 455 888 899 7769" maxlength="16" required><br>
+
+            <div class="card1">
+                <label for="cardex">Card Expiry Date</label><br>
+                <input class="box2" type="month" name="month" id="month" placeholder="MM/YY" required min="2022-01" /><br>
+            </div>
+<br>
+            <div class="card1">
+                <label for="CardCVC">Card CVC</label><br>
+                <input class="box2" type="cvc" name="cvc" id="CVC" placeholder="***" maxlength="3" required><br> 
+            </div><br>
+
+
+            <label for="name">Name on Card</label><br>
+            <input class="box1" type="text" name="cname" id="cname" placeholder="JONE SILVA" required><br>
+
+        </form>
+    </section>
+
+    <div class="summary" id="summarySection">
+      <section class="user-details-table">
+        <table class="user-details">
+            <tr>
+                <td>Name</td>
+                <td><span id="user-name">< Your Name ></span></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td id="user-mobile">< Mobile Number ></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td id="user-email">< Your E-mail ></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td id="user-gender">< Male/Female ></td>
+            </tr>
+        </table>
+    </section>
+      <section class="details-summary-table">
+        <table class="table">
+          <tr>
+            <td>Date</td>
+            <td>< Current Date ></td>
+          </tr>
+          <tr>
+            <td>Time</td>
+            <td>08.00 am - 09.00 am</td>
+          </tr>
+          <tr>
+            <td>Duration</td>
+            <td>1 hr (01: Normal, 00): Peak</td>
+          </tr>
+          <tr class="sub-head">
+            <td>Tickets</td>
+            <td>Charges</td>
+          </tr>
+          <tr class="hide" id="sl-adults-row">
+            <td data-ticket-type="SL Adult">1 SL Adult</td>
+            <td>$0</td>
+          </tr>
+          <tr class="hide">
+            <td data-ticket-type="SL Child">1 SL Child</td>
+            <td>$0</td>
+          </tr>
+          <tr id="foreign-adults-row">
+            <td data-ticket-type="Foreign Adult">1 Foreigner Adult</td>
+            <td>$0</td>
+          </tr>
+          <tr class="hide" id="foreign-child-row">
+            <td data-ticket-type="Foreign Child">1 Foreigner Child</td>
+            <td>$0</td>
+          </tr>
+          <tr class="hide" id="infant-row">
+            <td data-ticket-type="Infant">Infants</td>
+            <td>$0</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td>Total Payables</td>
+              <td id="totalPayables">$0</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+        
+      </div>
+
+      <a href="Confirmation.html"><button class="pay-btn" type="button" id="payButton" disabled>PAY</button></a>
+    <script src="Java Script/Payment.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,182 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow:-y hidden;
+}
+
+h1 {
+   
+  background-color: #004d20;
+    line-height: 0.9em;
+    padding-bottom: 30px;
+    
+}
+   
+ h1 a{
+    
+    
+    color: rgb(0, 0, 0);
+    font-size:large;
+    text-decoration: none;
+    background-color: #004d20;
+
+}
+.topnav{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #000000;
+
+
+}
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #070707;
+
+
+
+}
+body {
+   
+  font-family: Arial, sans-serif;
+
+  
+}
+  
+
+
+
+ul.Header li {
+  display: inline;
+  font-size: 18px;
+
+
+}
+  
+   
+.Header li a{
+text-decoration: none;
+color: #000;
+
+
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box1, .box2 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.summary {
+  background-color: #343c3aab;
+  border: 1px solid #808593;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.user-details-table, .details-summary-table {
+  margin-bottom: 20px;
+}
+
+.user-details-table table, .details-summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details-table td, .details-summary-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.sub-head {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+.pay-btn {
+  background-color: #023004f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pay-btn:hover {
+  background-color: #45a049;
+}
+
+.booking{
+  background-color: #bae3b982;
+    border: 1px solid #07451e;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+

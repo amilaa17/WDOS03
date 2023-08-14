@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="css/Confirmation.css">
+</head>
+<body>
+
+    <h1><a href="" >< Home </a><center>Buy Tickets</center></h1>
+
+
+
+    
+        <ul class="topnav">
+          <li><a href="./Ticket.html"> Ticket </a></li>
+          <
+        
+          <li><a href="./Details.html">  Details</a></li>
+          <
+          <li><a href="./Payment.html"> Payment</a></li>
+           <
+          <li><a href="./Confirmation.html"> Confirmation </a></li>
+          
+        </ul>
+    
+      
+<hr>
+      <div class="summary" id="summarySection">
+        <div class="para">
+        <p>Thank you for your booking. Your booking has been confirmed with us. You can show this confirmation at the entrance. Following is the summary of your booking.</p>
+      </div>
+      <br>
+        <h2>Details</h2>
+          <section class="user-details-table">
+            <table class="user-details">
+                <tr>
+                    <td>Name</td>
+                    <td><span id="user-name">< Name ></span></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td id="user-mobile">< Mobile Number ></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="user-email">< E-mail ></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td id="user-gender">< Male/Female ></td>
+                </tr>
+            </table>
+
+            <table class="table">
+              <tr>
+                <td>Date</td>
+                <td><Current Date ></td>
+              </tr>
+              <tr>
+                <td>Time</td>
+                <td>08.00 am - 09.00 am</td>
+              </tr>
+              <tr>
+                <td>Duration</td>
+                <td>1 hr (01: Normal, 00): Peak</td>
+              </tr>
+              <tr class="sub-head">
+                <td>Tickets</td>
+                <td>Charges</td>
+              </tr>
+              <tr class="hide" id="sl-adults-row">
+                <td data-ticket-type="SL Adult">1 SL Adult</td>
+                <td>$0</td>
+              </tr>
+              <tr class="hide">
+                <td data-ticket-type="SL Child">1 SL Child</td>
+                <td>$0</td>
+              </tr>
+              <tr id="foreign-adults-row">
+                <td data-ticket-type="Foreign Adult">1 Foreigner Adult</td>
+                <td>$0</td>
+              </tr>
+              <tr class="hide" id="foreign-child-row">
+                <td data-ticket-type="Foreign Child">1 Foreigner Child</td>
+                <td>$0</td>
+              </tr>
+              <tr class="hide" id="infant-row">
+                <td data-ticket-type="Infant">Infants</td>
+                <td>$0</td>
+              </tr>
+              <tfoot>
+                <tr>
+                  <td>Total Payables</td>
+                  <td id="totalPayables">$0</td>
+                </tr>
+              </tfoot>
+            </table>
+          </section>
+    
+            <p>Please keep this confirmation message for reference. We look forward to welcoming you!</p>
+          </div>
+      
+    <script src="Java Script/Confirmation.js"></script>
+</body>
+</html>

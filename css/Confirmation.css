@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+h1 {
+   
+  background-color:  #004d20;
+    line-height: 0.9em;
+    padding-bottom: 30px;
+    
+}
+   
+ h1 a{
+    
+    
+    color: rgb(0, 0, 0);
+    font-size:large;
+    text-decoration: none;
+    background-color:  #004d20;
+
+}
+
+
+.topnav{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #000000;
+
+
+}
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #070707;
+
+
+}
+
+body {
+   
+  font-family: Arial, sans-serif;
+  
+
+  
+
+  }
+
+
+
+
+h2 {
+ 
+  padding: 20px 0;
+  background-color: #004d20;
+}
+
+.summary {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.user-details-table, .details-summary-table {
+  margin-bottom: 20px;
+}
+
+.user-details-table table, .details-summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details-table td, .details-summary-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.sub-head {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+.form{
+  background-color: aqua;
+}
+
+.para{
+  font-size: larger;
+  font-weight: bold;
+}
+
+  

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nanum+Myeongjo:wght@400;800&family=Playfair:wght@300&family=Poltawski+Nowy:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&family=Pontano+Sans:wght@700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif ;
+
+
+}
+.banner{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/Hikkaduwa\ Turtle\ beach.jpeg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.button-watch{
+    display:flex;
+    justify-content: center; 
+ /*navbar*/   
+
+}
+.textbox{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top:25px;
+
+}
+.navbar{
+    width: 85%;
+    margin: -3.5rem 14rem;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    
+
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+
+ }
+ .ul li ul.dropdown li{
+    display: inline-flex
+  
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display:none;
+    background: black;
+    padding: 10px;
+    background-color: grey;  
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+
+ }
+ .headtopic{
+  width:90%;
+  color: whitesmoke;
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+ }
+ .headtopic h1{
+    font-size: 62px;
+    font-style: italic;
+ }
+.headtopic p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color:#fff
+}   
+h1 {
+    color: white;
+    margin: 0;
+  }
+  
+ #image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .des {
+ 
+    margin: auto;
+    padding: 20px;
+  
+
+  }
+  .des h1{
+    font-size: 22px;
+    margin: 5%;
+    font-family: 'Poppins', sans-serif;
+/*maps*/
+}iframe {
+    width: 100rem;
+    height:30rem;
+ }
+ .intro-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .intro-p img {
+    width: 300px;
+    height: auto;
+  
+  
+}
+.foot{
+    background-color: #d6d4d4;
+     background-repeat:no-repeat;
+     background-size:cover;
+     color:rgb(0, 0, 0);
+     text-align: center;  
+     width: 100%;
+}
+ .reference{
+     display: grid;
+     padding: 10px;
+     background-color: #d6d4d4;
+ }
+ body{
+    overflow-x: hidden;
+    /*responsive*/
+}@media screen and (max-width: 700px) {
+    .navbar {
+      margin: -3.5rem 5rem;
+    }
+  
+    .textbox {
+      width: 90%;
+    }
+  
+    .headtopic {
+      width: 90%;
+    }
+  
+    #image-gallery {
+      justify-content: flex-start;
+    }
+  
+    .image {
+      width: 100%;
+      height: 150px;
+      margin: 10px 5px;
+    }
+  
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  
+
+      .intro-p img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+    }
+    
+   
+    .first-btn {
+      display: inline-block;
+      text-decoration: none;
+      color: #333;
+      background-color:  #ff0000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s, color 0.3s;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      
+
+      
+    }
+    
+    .first-btn:hover {
+      background-color: #ff0000;
+      color: #333
+    }
+    
+   

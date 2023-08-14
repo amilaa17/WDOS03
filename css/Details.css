@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow:-y hidden;
+}
+
+h1 {
+   
+  background-color: #004d20;
+    line-height: 0.9em;
+    padding-bottom: 30px;
+    
+}
+   
+ h1 a{
+    
+    
+    color: rgb(0, 0, 0);
+    font-size:large;
+    text-decoration: none;
+    background-color: #004d20;
+
+}
+.topnav{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #000000;
+
+
+}
+
+ul.topnav li {
+  display: inline;
+  font-size: 18px;
+
+
+
+
+}
+  
+   
+.topnav li a{
+text-decoration: none;
+color: #070707;
+
+
+
+}
+body {
+   
+  font-family: Arial, sans-serif;
+
+
+    
+  }
+#buyTicketsHeading, #detailsHeading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#ticketForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 15%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #055c33;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #055c33;
+}
+
+.summary {
+  background-color: #343c3aab;
+  border: 1px solid #808593;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.user-details-ta, .details-summary-table {
+  margin-bottom: 20px;
+}
+
+.user-details-ta table, .details-summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details-ta td, .details-summary-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.booking{
+  background-color: #bae3b982;
+    border: 1px solid #07451e;
+    padding: 20px;
+    margin: 20px 0;
+}
